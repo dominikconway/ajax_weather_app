@@ -1,0 +1,25 @@
+.title {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border: 6px dotted black;
+    background-color: orange;
+    color: whitesmoke
+}
+
+.weatherapp {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid black
+}
+
+.weather-data {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
