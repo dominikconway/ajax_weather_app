@@ -4,22 +4,35 @@
     margin: auto;
     justify-content: center;
     align-items: center;
-    border: 6px dotted black;
-    background-color: orange;
-    color: whitesmoke
+    font-size: 50px;
+    font-weight: bold;
 }
 
 .weatherapp {
     display: flex;
-    width: 90%;
-    margin: auto;
     justify-content: center;
     align-items: center;
-    border: 6px solid black
 }
 
-.weather-data {
-    width: 90%;
+#weather-data {
+    display: flex;
+    width: 36%;
     margin: auto;
-    text-align: center;
+    justify-content: center;
+/* padding pushes from inside inside margin pushes from outside */
+
 }
+
+#button {
+    font-size: 14px;
+    margin: 5px;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+#.h11 {
+    display: flex;
+    justify-content: center
+}
+
+

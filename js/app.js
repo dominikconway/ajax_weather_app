@@ -14,10 +14,11 @@ $button.on("click", () => {
         // set the html inside the aside with the weather data
         $("aside").html(`
         <h1> Weather for: ${data.name}</h1>
-        <h1> Temperature: ${data.main.temp}
-        <h1> Feels like: ${data.main.feels_like}
-        <h1> Weather: ${data.weather[0].description}`)
+        <h1> Temperature: ${data.main.temp} degrees</h1>
+        <h1> Feels like: ${data.main.feels_like} degrees</h1>
+        <h1> Weather: ${data.weather[0].description}</h1>`)
     })
+
 
 
 })
